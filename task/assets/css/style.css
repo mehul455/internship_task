@@ -187,12 +187,15 @@ li a {
   padding-top: 30px;
   background-color: #e5e5e5;
   height: 84px;
+ 
 }
 .buttomborder:hover {
-  display: inline;
   border: 2px;
   border-style: none none solid none;
   border-color: #db1218;
+  text-decoration: none;
+  color: #000000;
+  
 }
 .dnone {
   display: none;
@@ -200,4 +203,10 @@ li a {
 
 .togglerr {
   display: flex;
+}
+
+.buttomborder{
+  text-decoration: none;
+color: grey;
+font-size: 20px;
 }
