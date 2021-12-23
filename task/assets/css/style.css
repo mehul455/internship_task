@@ -180,3 +180,24 @@ li a {
     bottom: 80px;
   }
 }
+
+.toggle {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  background-color: #e5e5e5;
+  height: 84px;
+}
+.buttomborder:hover {
+  display: inline;
+  border: 2px;
+  border-style: none none solid none;
+  border-color: #db1218;
+}
+.dnone {
+  display: none;
+}
+
+.togglerr {
+  display: flex;
+}

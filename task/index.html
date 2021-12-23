@@ -12,6 +12,7 @@
       crossorigin="anonymous">
     <!-- External CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Bootstrap Webstite</title>
   </head>
   <body>
@@ -46,18 +47,26 @@
             <a class="nav-link text-white underline" style="font-size: 15px;"
               aria-current="page" href="#">Locate Store</a>
             <a class="nav-link text-white" style="font-size: 15px;"
-              href="#">Scooters<span class="arrow down"></span></a>
+              href="#">Scooters<span class="arrow down" onclick="myFunction()"></span></a>
             <a class="nav-link text-white" style="font-size: 15px;"
               href="#">Purchase Assistance<span class="arrow down"></span></a>
             <input type="button" class="btn" value="Dealership">
           </div>
         </div>
       </div>
+
     </nav>
+    <div class="toggle dnone">
+      <div class="buttomborder">HRX350 Bike</div>
+      <div class="buttomborder">GEAR350 EB</div>
+      <div class="buttomborder">RX - AK290 EB</div>
+      <div class="buttomborder">GBM -Heavy</div>
+    </div>
 
     <!-- Home -->
 
     <section class="my-3">
+
       <div class="container-fluid">
 
         <div class="row" style="margin-top: 100px;">
@@ -94,5 +103,12 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+            var element = document.getElementsByClassName("dnone");
+            element[0].classList.toggle("togglerr");
+              }
+    
+        </script>
   </body>
 </html>
