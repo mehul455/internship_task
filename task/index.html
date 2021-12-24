@@ -1,131 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <title>task</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous">
-    <!-- External CSS -->
+    <link rel='stylesheet'
+      href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous">
 
-    <title>Bootstrap Webstite</title>
   </head>
   <body>
-    <!-- nav bar -->
-    <div class="">
-      <ul>
-        <a style="margin-left: 100px; text-decoration: none; color:#FFFFFF;"
-          href="#home">Support : +91 - 9090909090</a>
-        <a style="margin-left: 180px; text-decoration: none; color:#FF0007;"
-          href="#home">Book a FREE Test Ride Now </a>
-        <li><a class="color" href="#">Media <span class="arrow down"
-              style="margin-right:
-              28px;"></span></a></li>
-        <li><a class="color" href="#">Career</a></li>
-        <li><a class="color" href="#">Contact</a></li>
-      </ul>
-    </div>
-    <nav class="navbar navbar-expand-lg navcolor">
+    <section class="bg">
       <div class="container-fluid">
-        <a class="navbar-brand navbarbox" href="#"><div class="box"><div
-              class="box2"></div></div></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav h">
-            <a class="nav-link text-white underline" style="font-size: 15px;"
-              aria-current="page" href="#">About</a>
-            <a class="nav-link text-white underline" style="font-size: 15px;"
-              aria-current="page" href="#">Locate Store</a>
-            <a class="nav-link text-white" style="font-size: 15px;"
-              href="#">Scooters<span class="arrow down clicked" onclick="btnToggle()"></span></a>
-            <a class="nav-link text-white" style="font-size: 15px;"
-              href="#">Purchase Assistance<span class="arrow down"></span></a>
-            <input type="button" class="btn" value="Dealership">
+        <div class="row top-bar">
+
+          <ul>
+            <li><a class="hovar" style="text-decoration: none;" href="#home">Support
+                : +91 - 9090909090</a></li>
+            <li><a class="hovar" href="#news" style="color: #FF0007;
+                text-decoration: none;">Book a FREE Test Ride Now</a></li>
+            <li class="d-flex topnav">
+              <a href="#" style="text-decoration: none;">Contact</a>
+              <a href="#" style="text-decoration: none;">Career</a>
+              <a href="#" style="text-decoration: none;">Media<span class="arrow
+                  down mob"></span></a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </section>
+    <nav class="navbar navbar-expand-lg navbar-dark bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <svg width="60" height="57" viewBox="0 0 67 67" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect width="52" height="56" fill="white" />
+              <rect x="8" y="8" width="34" height="40" fill="#DB1218" />
+                <rect x="16" y="18" width="17" height="20" fill="white" />
+                </svg>
+              </a>
+              <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white buttomborder"
+                      style="font-size: 18px;" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white buttomborder"
+                      style="font-size: 18px;" href="#">Locate Store</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" onclick="btnToggle()"
+                      style="font-size: 18px;" href="#">Scooters<span
+                        class="arrow clicked down"> </span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" style="font-size: 18px;"
+                      href="#">Purchase Assistance<span class="arrow down"></span></a>
+                  </li>
+                  <li class="nav-item">
+
+                    <a href="#" class="buttton btncenter" style="font-size:
+                      13px; text-decoration: none;">Dealership</a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </nav>
+          <div id="togglee" class="toggle contentd dnone">
+            <div><a class="buttomborder underline">HRX350 Bike</a></div>
+            <div><a class="buttomborder underline">GEAR350 EB</a></div>
+            <div><a class="buttomborder underline">RX - AK290 EB</a></div>
+            <div><a class="buttomborder underline">GBM -Heavy</a></div>
+          </div>
+
+
+        </div>
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-md-6 d-flex text-center">
+              <img src="./assets/img/74499-circle.gif" class="img-fluid gif">
+              <img src="./assets/img/scooty.png" class="img-fluid scooty">
+            </div>
+
+            <div class="col-md-6 text">
+              <h2 class="display-4 textcolor" style="color:#000000;
+                font-size:40px;
+                font-family: Playfair Display; padding-left: 28%;"><b>A neat<br>
+                  headline<br> comes
+                  here !</b></h2>
+
+
+
+              <p class="py-3" style="color:#000000; font-size:13px;
+                font-weight:bold; padding-left: 28%;">A neat sample text to come
+                here super soon.
+                Till<br> then admire the authentic and delightful User<br>
+                Interface Design of the Website. We are glad you<br> came here ,
+                thanks for visiting . </p>
+              <div style="padding-left: 28%;">
+                <a href="#" class="btnn" style="font-size: 13px;
+                  text-decoration: none;">Show Details</a>
+
+              </div>
+
+            </div>
           </div>
         </div>
-      </div>
-
-    </nav>
-    <div  id="togglee" class="toggle contentd dnone">
-      <div ><a class="buttomborder">HRX350 Bike</a></div>
-      <div ><a class="buttomborder">GEAR350 EB</a></div>
-      <div ><a class="buttomborder">RX - AK290 EB</a></div>
-      <div ><a class="buttomborder">GBM -Heavy</a></div>
-    </div>
-
-    <!-- Home -->
-
-    <section class="my-3">
-
-      <div class="container-fluid">
-
-        <div class="row" style="margin-top: 100px;">
-          <div class="col-lg-6 col-md-6 col-12 dflex">
-            <img src="assets/img/74499-circle.gif" class="img-fluid gif">
-            <img src="assets/img/scooty.png" class="img-fluid scooty">
-          </div>
-
-          <div class="col-lg-6 col-md-6 col-12">
-            <h2 class="display-4 textcolor" style="color:#000000;
-              font-size:40px;
-              font-family: Playfair Display;"><b>A neat<br> headline<br> comes
-                here !</b></h2>
-            <p class="py-3" style="color:#000000; font-size:13px;
-              font-weight:bold;">A neat sample text to come here super soon.
-              Till<br> then admire the authentic and delightful User<br>
-              Interface Design of the Website. We are glad you<br> came here ,
-              thanks for visiting . </p>
-            <a href="#" class="btnn" style="font-size: 13px;">Show Details</a>
-          </div>
-          <div class="flexx">
+        <div class="container">
+          <div class="flexx dott">
             <div class="dots bg-danger"></div>
             <div class="dots"></div>
             <div class="dots"></div>
             <div class="dots"></div>
           </div>
         </div>
-      </div>
-
-    </section>
-
-    <!-- Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"></script>
+<!-- bootstarp bundle -->
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+          crossorigin="anonymous"></script>
         <script type="text/javaScript">
 
-          function btnToggle() {
-              document.getElementById("togglee").classList.toggle("togglerr");
-            console.log("button clicked")
-          }
-            
-          // Closes the menu in the event of outside click
-          window.onclick = function(event) {
-              if (!event.target.matches('.clicked')) {
-                
-                  var offcanvas = 
-                  document.getElementsByClassName("contentd");
-                    
-                  var i;
-                  for (i = 0; i < offcanvas.length; i++) {
-                      var openDropdown = offcanvas[i];
-                      if (openDropdown.classList.contains('togglerr')) {
-                          openDropdown.classList.remove('togglerr');
-                      }
-                  }
-              }
-          }
-      </script>    
-  </body>
-</html>
+    function btnToggle() {
+        document.getElementById("togglee").classList.toggle("togglerr");
+      console.log("button clicked")
+    }
+      
+    // Closes the menu in the event of outside click
+    window.onclick = function(event) {
+        if (!event.target.matches('.clicked')) {
+          
+            var offcanvas = 
+            document.getElementsByClassName("contentd");
+              
+            var i;
+            for (i = 0; i < offcanvas.length; i++) {
+                var openDropdown = offcanvas[i];
+                if (openDropdown.classList.contains('togglerr')) {
+                    openDropdown.classList.remove('togglerr');
+                }
+            }
+        }
+    }
+</script>
+      </body>
+    </html>
